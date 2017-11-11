@@ -7,12 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class LoginController
 {
-    public static final String PAGE = "/login2";
-    private static final String HTML = "login";
+    public static final String PAGE = "/loginForm";
+    private static final String HTML = "loginForm";
 
     @RequestMapping(value = LoginController.PAGE)
     public String top(Model model)
     {
         return LoginController.HTML;
     }
+    
 }

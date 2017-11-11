@@ -1,9 +1,13 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
-    <title>hello my spring</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ログインフォーム</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap-theme.min.css}"/>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/main.css" th:href="@{/css/main.css}" type="text/css"
 	media="screen" />
@@ -59,7 +63,18 @@
 
     </style>
 </head>
+
 <body>
-    <h1>Hello , Spring MVC</h1>
+
+<div class="container">
+    <h1>sampleシステム</h1>
+     <form id="loginForm" method="post" th:action="@{/login}">
+        <label for="username">username</label>
+        <input id="username" name="username" type="text" />
+        <label for="password">password</label>
+        <input id="password" name="password" type="password" />
+        <button type="submit">login</button>
+     </form>
+</div>
 </body>
 </html>
