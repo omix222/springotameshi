@@ -6974,3 +6974,4 @@ from t_employee employee0_ where employee0_.id='u001'  {executed in 0 msec}
 2017-11-14 15:04:27.442  INFO [-,,,] 3375 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
 2017-11-14 15:04:27.651  INFO [-,,,] 3375 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http)
 2017-11-14 15:04:27.655  INFO [-,,,] 3375 --- [restartedMain] c.e.t.s.SpringotamashiApplication        : Started SpringotamashiApplication in 3.49 seconds (JVM running for 30.448)
+2017-11-14 15:10:42.593  WARN [-,,,] 3375 --- [testdb housekeeper] com.zaxxer.hikari.pool.HikariPool        : testdb - Thread starvation or clock leap detected (housekeeper delta=3m17s167ms).
