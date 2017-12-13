@@ -5,9 +5,13 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import java.util.Locale;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.context.MessageSource;
 
 @Service
 @RequestMapping("/hello")
@@ -15,7 +19,12 @@ public class HelloController {
 
 	@Value("${hoge:hogehoge}")
 	String hoge;
-
+	
+	// Massageの取得
+	@Autowired
+	MessageSource messageSource;
+	
+	
 	private static final Logger logger = LoggerFactory.getLogger(HelloController.class);
 
 	@RequestMapping(method = RequestMethod.GET)
@@ -29,6 +38,8 @@ public class HelloController {
 		}
 		logger.info("User : " + username);
 		logger.info("${hoge}:" + hoge);
+		String message = messageSource.getMessage("welcome.message", new String[]{"hogehoge"}, Locale.JAPANESE);
+		logger.info(message);
 		return "hellospringmvc";
 	}
 }
