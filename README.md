@@ -42,11 +42,17 @@
 }
 
 
-Springfox(swaggerUI)
+## Springfox(swaggerUI)　　
 
-初回は以下実行要
+* 初回は以下実行要  
+
  ./gradlew cleanIdea idea
- 通常起動>>　　
+
+*  通常起動
+　　
  ./gradlew bootrun
+
+* アクセス　　
+
 http://localhost:8080/swagger-ui.html
  
