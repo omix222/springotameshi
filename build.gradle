@@ -16,7 +16,11 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
-
+apply plugin: 'idea'
+// 初回は以下実行要
+// ./gradlew cleanIdea idea
+// 通常起動>>　　./gradlew bootrun
+// http://localhost:8080/swagger-ui.html
 group = 'com.example.takahashi'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
@@ -25,6 +29,7 @@ repositories {
 	mavenCentral()
 	maven { url "https://repo.spring.io/snapshot" }
 	maven { url "https://repo.spring.io/milestone" }
+	jcenter()
 }
 
 
@@ -36,7 +41,7 @@ dependencies {
 	//compile('org.springframework.boot:spring-boot-starter-actuator')
 	//compile('org.springframework.cloud:spring-cloud-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-security')
-	//compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-web')
 	
 	// for Thymeleaf
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
@@ -52,6 +57,10 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	runtime('com.h2database:h2')
+	
+	compile "io.springfox:springfox-swagger2:2.2.2"
+    compile "io.springfox:springfox-swagger-ui:2.2.2"
+    compile "com.google.guava:guava:17.0"
 }
 
 dependencyManagement {
