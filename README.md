@@ -40,4 +40,13 @@
 "number": 0
 }
 }
+
+
+Springfox(swaggerUI)
+
+初回は以下実行要
+ ./gradlew cleanIdea idea
+ 通常起動>>　　
+ ./gradlew bootrun
+http://localhost:8080/swagger-ui.html
  
