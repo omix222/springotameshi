@@ -57,4 +57,9 @@
 http://localhost:8080/swagger-ui.html
 
 http://localhost:8080/v2/api-docs?group=public
+
+dockerお試し
+
+https://plugins.gradle.org/plugin/com.palantir.docker
+
  
