@@ -82,6 +82,11 @@ docker login
 docker build . -f build/docker/Dockerfile 
 docker ps コマンドでビルドしたイメージのIDを確認
 //docker run -it  <IMAGE ID> -p 8081:8080
-docker run -d -p 8081:8080 <IMAGE ID>
+docker run -itd -p 8081:8080 --name springotameshi 50a160b967d2<IMAGE ID> 
  
- localhost:8081で外部からアクセス。
+http://localhost:8081/
+でアクセス。
+
+止める時は、
+
+docker stop springotameshi
