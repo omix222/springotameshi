@@ -62,4 +62,26 @@ dockerお試し
 
 https://plugins.gradle.org/plugin/com.palantir.docker
 
+* Spring-boot-dockerプロジェクト
+
+https://spring.io/guides/gs/spring-boot-docker/
+
+sudo ./gradlew build docker
+
+> Task :docker
+Get https://registry-1.docker.io/v2/library/openjdk/manifests/8-jdk-alpine: unauthorized: incorrect username or password
+
+が出た時は認証が必要。
+
+docker login
+
+コマンドでログインしておく。
+
+上記でダメなら、、jar作成後、自分でdocker　buildする。
+
+docker build . -f build/docker/Dockerfile 
+docker ps コマンドでビルドしたイメージのIDを確認
+//docker run -it  <IMAGE ID> -p 8081:8080
+docker run -d -p 8081:8080 <IMAGE ID>
  
+ localhost:8081で外部からアクセス。
