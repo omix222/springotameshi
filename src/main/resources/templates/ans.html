@@ -60,20 +60,7 @@
     </style>
 </head>
 <body>
-    <h1>電卓アプリ</h1>
-    <!-- 
-    <h2><a href="/swagger-ui.html" th:href="@{/swagger-ui.html}">Swagger UI Link</a></h2>
-     -->
-     <form method="POST" action="/calc" th:action="@{/calc}">
-        <input id="inputText" type="text" name="txt1" th:value="${txt1}" />+
-        <input type="text" name="txt2" th:value="${txt2}" />
-        <input type="submit" value="計算" />
-    </form>
-	<script type="text/javascript">
-		window.onload = function(){
-			document.getElementById('inputText').focus();
-		}
-	</script>    
-    
+    <h1>電卓アプリ 計算結果</h1>
+    <h1 th:text="${ans}"></h1>
 </body>
 </html>

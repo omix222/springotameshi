@@ -90,3 +90,9 @@ http://localhost:8081/
 止める時は、
 
 docker stop springotameshi
+
+
+pcf用のコマンド
+
+
+
