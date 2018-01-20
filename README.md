@@ -96,8 +96,21 @@ pcf用のコマンド
   ./gradlew clean build
   cf login
   cf push mforumapp -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar 
+
+
   
-  cf push p build/libs/springotamashi-0.0.1-SNAPSHOT.jar --route-path mforumapp
+  cf push mforumapp2 -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar
+    
+  cf map-route mforumapp2 cfapps.io -n mforumapp
+
+
+
+  cf map-route mforumapp cfapps.io -n mforumapp2
+
+  
+  旧ルートを削除してしまうのでDemoとしてはNG
+  cf bgd mforumapp
+  
   
 　https://mforumapp.cfapps.io/  
 
