@@ -93,6 +93,11 @@ docker stop springotameshi
 
 
 pcf用のコマンド
-
-
+  ./gradlew clean build
+  cf login
+  cf push mforumapp -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar 
+  
+  cf push p build/libs/springotamashi-0.0.1-SNAPSHOT.jar --route-path mforumapp
+  
+　https://mforumapp.cfapps.io/  
 
