@@ -104,11 +104,9 @@ pcf用のコマンド
   cf map-route mforumapp2 cfapps.io -n mforumapp
 
 
-
   cf map-route mforumapp cfapps.io -n mforumapp2
 
-  
-  旧ルートを削除してしまうのでDemoとしてはNG
+
   cf bgd mforumapp
   
   
