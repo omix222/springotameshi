@@ -913,3 +913,846 @@ from t_employee employee0_ where employee0_.id='u001'  {executed in 0 msec}
 2018-01-23 18:57:11.219  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 140. Connection.new Connection returned 
 2018-01-23 18:57:11.219  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 140. Connection.setReadOnly(false) returned 
 2018-01-23 18:57:11.219  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 140. Connection.setAutoCommit(true) returned 
+2018-01-23 19:25:20.248  INFO [-,,,] 94256 --- [main] c.e.t.s.SpringotamashiApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 19:25:20.295  INFO [-,,,] 94256 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@80503: startup date [Tue Jan 23 19:25:20 JST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34033bd0
+2018-01-23 19:25:22.172  INFO [-,,,] 94256 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'websocketContainerCustomizer' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$JettyWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$JettyWebSocketConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration.class]]
+2018-01-23 19:25:22.547  INFO [-,,,] 94256 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'httpRequestHandlerAdapter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration; factoryMethodName=httpRequestHandlerAdapter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration; factoryMethodName=httpRequestHandlerAdapter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/data/rest/webmvc/config/RepositoryRestMvcConfiguration.class]]
+2018-01-23 19:25:23.153  INFO [-,,,] 94256 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=594e35dc-8f46-3129-8e85-6eb35568c68e
+2018-01-23 19:25:23.523  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$4dc6fa1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:23.700  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$12eaa28e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:24.103  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:24.121  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10855c5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:24.291  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c9f5f59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:24.316  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$f869087b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:24.351  INFO [-,,,] 94256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.TraceWebServletAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.TraceWebServletAutoConfiguration$$EnhancerBySpringCGLIB$$d333e4a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:25:24.995  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.util.log               : Logging initialized @8831ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-23 19:25:25.210  INFO [-,,,] 94256 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 23878
+2018-01-23 19:25:25.217  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.7.v20170914
+2018-01-23 19:25:25.308  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2018-01-23 19:25:25.309  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2018-01-23 19:25:25.313  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.server.session         : Scavenging every 660000ms
+2018-01-23 19:25:25.325  INFO [-,,,] 94256 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2018-01-23 19:25:25.325  INFO [-,,,] 94256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5031 ms
+2018-01-23 19:25:25.739  INFO [-,,,] 94256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 19:25:25.745  INFO [-,,,] 94256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2018-01-23 19:25:25.745  INFO [-,,,] 94256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 19:25:25.746  INFO [-,,,] 94256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 19:25:25.747  INFO [-,,,] 94256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 19:25:25.747  INFO [-,,,] 94256 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 19:25:25.750  INFO [-,,,] 94256 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@79c97cb{/,[file:///private/var/folders/1m/v_pnk3kd3hj0558d1z3nsnzh0000gn/T/jetty-docbase.8904621975137511470.23878/, jar:file:/Users/hiromitakahashi/oper/springotamashi/build/libs/springotamashi-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2018-01-23 19:25:25.751  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.server.Server          : Started @9587ms
+2018-01-23 19:25:26.112  INFO [-,,,] 94256 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-23 19:25:27.330 ERROR [-,,,] 94256 --- [main] com.zaxxer.hikari.pool.HikariPool        : testdb - Exception during pool initialization.
+
+org.h2.jdbc.JdbcSQLException: データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.196.jar!/:na]
+	at org.h2.message.DbException.get(DbException.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:188) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.getPageStore(Database.java:2476) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.open(Database.java:697) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.openDatabase(Database.java:276) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.<init>(Database.java:270) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:64) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:176) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:154) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:137) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:27) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:354) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:116) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.196.jar!/:na]
+	at net.sf.log4jdbc.DriverSpy.connect(DriverSpy.java:719) ~[log4jdbc-remix-0.2.7.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97) [HikariCP-2.7.2.jar!/:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:163) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:109) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb.CGLIB$jpaVendorAdapter$3(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb$$FastClassBySpringCGLIB$$3c1132a4.invoke(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) [spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb.jpaVendorAdapter(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:155) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:575) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1133) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1060) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:809) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:715) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:458) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1133) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1060) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:809) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:715) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:458) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:122) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:751) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:387) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1245) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1233) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at com.example.takahashi.springotamashi.SpringotamashiApplication.main(SpringotamashiApplication.java:26) ~[classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hiromitakahashi/oper/springotamashi/target/db/testdb.mv.db [1.4.196/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:765) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.FileStore.open(FileStore.java:173) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:347) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2930) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155) ~[h2-1.4.196.jar!/:na]
+	... 96 common frames omitted
+
+2018-01-23 19:25:27.334  WARN [-,,,] 94256 --- [main] o.s.b.a.orm.jpa.DatabaseLookup           : Unable to determine jdbc url from datasource
+
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.h2.jdbc.JdbcSQLException: データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) ~[spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:163) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:109) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb.CGLIB$jpaVendorAdapter$3(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb$$FastClassBySpringCGLIB$$3c1132a4.invoke(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) [spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb.jpaVendorAdapter(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:155) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:575) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1133) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1060) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:809) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:715) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:458) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1133) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1060) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:809) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:715) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:458) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:122) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:751) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:387) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1245) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1233) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at com.example.takahashi.springotamashi.SpringotamashiApplication.main(SpringotamashiApplication.java:26) ~[classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.h2.jdbc.JdbcSQLException: データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	... 69 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLException: データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.196.jar!/:na]
+	at org.h2.message.DbException.get(DbException.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:188) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.getPageStore(Database.java:2476) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.open(Database.java:697) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.openDatabase(Database.java:276) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.<init>(Database.java:270) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:64) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:176) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:154) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:137) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:27) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:354) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:116) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.196.jar!/:na]
+	at net.sf.log4jdbc.DriverSpy.connect(DriverSpy.java:719) ~[log4jdbc-remix-0.2.7.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97) ~[HikariCP-2.7.2.jar!/:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	... 70 common frames omitted
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hiromitakahashi/oper/springotamashi/target/db/testdb.mv.db [1.4.196/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:765) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.FileStore.open(FileStore.java:173) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:347) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2930) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155) ~[h2-1.4.196.jar!/:na]
+	... 96 common frames omitted
+
+2018-01-23 19:25:27.391  INFO [-,,,] 94256 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-23 19:25:28.407 ERROR [-,,,] 94256 --- [main] com.zaxxer.hikari.pool.HikariPool        : testdb - Exception during pool initialization.
+
+org.h2.jdbc.JdbcSQLException: データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.196.jar!/:na]
+	at org.h2.message.DbException.get(DbException.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:188) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.getPageStore(Database.java:2476) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.open(Database.java:697) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.openDatabase(Database.java:276) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.<init>(Database.java:270) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:64) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:176) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:154) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:137) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:27) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:354) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:116) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.196.jar!/:na]
+	at net.sf.log4jdbc.DriverSpy.connect(DriverSpy.java:719) ~[log4jdbc-remix-0.2.7.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97) [HikariCP-2.7.2.jar!/:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324) [spring-jdbc-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:132) [spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:106) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:133) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb.CGLIB$entityManagerFactory$6(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb$$FastClassBySpringCGLIB$$3c1132a4.invoke(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) [spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$2f5c1ecb.entityManagerFactory(<generated>) [spring-boot-autoconfigure-2.0.0.M6.jar!/:2.0.0.M6]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:155) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:575) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1249) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1098) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:122) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:751) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:387) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1245) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1233) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at com.example.takahashi.springotamashi.SpringotamashiApplication.main(SpringotamashiApplication.java:26) ~[classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hiromitakahashi/oper/springotamashi/target/db/testdb.mv.db [1.4.196/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:765) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.FileStore.open(FileStore.java:173) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:347) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2930) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155) ~[h2-1.4.196.jar!/:na]
+	... 68 common frames omitted
+
+2018-01-23 19:25:28.501  INFO [-,,,] 94256 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 19:25:28.561  INFO [-,,,] 94256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-23 19:25:28.801  INFO [-,,,] 94256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.12.Final}
+2018-01-23 19:25:28.804  INFO [-,,,] 94256 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-01-23 19:25:28.924  INFO [-,,,] 94256 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-23 19:25:29.369  INFO [-,,,] 94256 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-23 19:25:30.376 ERROR [-,,,] 94256 --- [main] com.zaxxer.hikari.pool.HikariPool        : testdb - Exception during pool initialization.
+
+org.h2.jdbc.JdbcSQLException: データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.196.jar!/:na]
+	at org.h2.message.DbException.get(DbException.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:188) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:168) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.getPageStore(Database.java:2476) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.open(Database.java:697) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.openDatabase(Database.java:276) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Database.<init>(Database.java:270) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:64) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.openSession(Engine.java:176) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:154) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:137) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.Engine.createSession(Engine.java:27) ~[h2-1.4.196.jar!/:na]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:354) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:116) ~[h2-1.4.196.jar!/:na]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:100) ~[h2-1.4.196.jar!/:na]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.196.jar!/:na]
+	at net.sf.log4jdbc.DriverSpy.connect(DriverSpy.java:719) ~[log4jdbc-remix-0.2.7.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:375) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:204) ~[HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:445) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:516) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:116) [HikariCP-2.7.2.jar!/:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97) [HikariCP-2.7.2.jar!/:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:858) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:885) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) [spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:358) [spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:384) [spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:373) [spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1763) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1700) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) [spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:122) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:751) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:387) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1245) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1233) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at com.example.takahashi.springotamashi.SpringotamashiApplication.main(SpringotamashiApplication.java:26) ~[classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) ~[springotamashi-0.0.1-SNAPSHOT.jar:na]
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hiromitakahashi/oper/springotamashi/target/db/testdb.mv.db [1.4.196/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:765) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.FileStore.open(FileStore.java:173) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:347) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2930) ~[h2-1.4.196.jar!/:na]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:155) ~[h2-1.4.196.jar!/:na]
+	... 69 common frames omitted
+
+2018-01-23 19:25:30.379  WARN [-,,,] 94256 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : データベースが使用中です: null. 可能な解決策: 他の接続を全て閉じる; サーバモードを使う
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-196]
+2018-01-23 19:25:30.382  WARN [-,,,] 94256 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2018-01-23 19:25:30.387  INFO [-,,,] 94256 --- [main] org.eclipse.jetty.server.session         : Stopped scavenging
+2018-01-23 19:25:30.389  INFO [-,,,] 94256 --- [main] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@79c97cb{/,[file:///private/var/folders/1m/v_pnk3kd3hj0558d1z3nsnzh0000gn/T/jetty-docbase.8904621975137511470.23878/, jar:file:/Users/hiromitakahashi/oper/springotamashi/build/libs/springotamashi-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2018-01-23 19:25:30.401  INFO [-,,,] 94256 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-23 19:25:30.404 ERROR [-,,,] 94256 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1704) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:858) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:122) ~[spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:751) [spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:387) [spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1245) [spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1233) [spring-boot-2.0.0.M6.jar!/:2.0.0.M6]
+	at com.example.takahashi.springotamashi.SpringotamashiApplication.main(SpringotamashiApplication.java:26) [classes!/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [springotamashi-0.0.1-SNAPSHOT.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [springotamashi-0.0.1-SNAPSHOT.jar:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:271) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:858) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:885) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:358) ~[spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:384) ~[spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:373) ~[spring-orm-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1763) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1700) ~[spring-beans-5.0.1.RELEASE.jar!/:5.0.1.RELEASE]
+	... 24 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+	... 40 common frames omitted
+
+2018-01-23 19:26:05.786  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 132. Connection closed
+2018-01-23 19:26:05.787  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 132. Connection.close() returned 
+2018-01-23 19:26:05.790  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 141. Connection opened
+2018-01-23 19:26:05.790  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 141. Connection.new Connection returned 
+2018-01-23 19:26:05.790  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 141. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:05.790  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 141. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:09.996  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 131. Connection closed
+2018-01-23 19:26:09.996  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 131. Connection.close() returned 
+2018-01-23 19:26:09.997  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 142. Connection opened
+2018-01-23 19:26:09.997  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 142. Connection.new Connection returned 
+2018-01-23 19:26:09.997  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 142. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:09.997  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 142. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:16.098  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 133. Connection closed
+2018-01-23 19:26:16.098  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 133. Connection.close() returned 
+2018-01-23 19:26:16.099  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 143. Connection opened
+2018-01-23 19:26:16.099  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 143. Connection.new Connection returned 
+2018-01-23 19:26:16.099  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 143. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:16.099  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 143. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:26.589  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 137. Connection closed
+2018-01-23 19:26:26.589  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 144. Connection opened
+2018-01-23 19:26:26.591  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 144. Connection.new Connection returned 
+2018-01-23 19:26:26.591  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 144. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:26.591  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 137. Connection.close() returned 
+2018-01-23 19:26:26.591  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 144. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:27.546  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 135. Connection closed
+2018-01-23 19:26:27.546  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 135. Connection.close() returned 
+2018-01-23 19:26:27.547  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 145. Connection opened
+2018-01-23 19:26:27.547  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 145. Connection.new Connection returned 
+2018-01-23 19:26:27.547  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 145. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:27.547  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 145. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:37.279  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 138. Connection closed
+2018-01-23 19:26:37.279  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 138. Connection.close() returned 
+2018-01-23 19:26:37.280  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 146. Connection opened
+2018-01-23 19:26:37.280  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 146. Connection.new Connection returned 
+2018-01-23 19:26:37.280  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 146. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:37.280  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 146. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:39.126  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 134. Connection closed
+2018-01-23 19:26:39.127  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 134. Connection.close() returned 
+2018-01-23 19:26:39.127  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 147. Connection opened
+2018-01-23 19:26:39.127  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 147. Connection.new Connection returned 
+2018-01-23 19:26:39.127  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 147. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:39.128  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 147. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:43.666  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 140. Connection closed
+2018-01-23 19:26:43.666  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 140. Connection.close() returned 
+2018-01-23 19:26:43.666  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 148. Connection opened
+2018-01-23 19:26:43.667  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 148. Connection.new Connection returned 
+2018-01-23 19:26:43.667  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 148. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:43.667  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 148. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:45.234  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 136. Connection closed
+2018-01-23 19:26:45.234  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 136. Connection.close() returned 
+2018-01-23 19:26:45.235  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 149. Connection opened
+2018-01-23 19:26:45.235  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 149. Connection.new Connection returned 
+2018-01-23 19:26:45.235  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 149. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:45.235  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 149. Connection.setAutoCommit(true) returned 
+2018-01-23 19:26:56.016  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 139. Connection closed
+2018-01-23 19:26:56.021  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 139. Connection.close() returned 
+2018-01-23 19:26:56.021  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.connection                          : 150. Connection opened
+2018-01-23 19:26:56.021  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 150. Connection.new Connection returned 
+2018-01-23 19:26:56.021  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 150. Connection.setReadOnly(false) returned 
+2018-01-23 19:26:56.021  INFO [-,,,] 84774 --- [testdb connection adder] jdbc.audit                               : 150. Connection.setAutoCommit(true) returned 
+2018-01-23 19:29:45.470  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-01-23 19:29:45.481  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a8d2b64: startup date [Tue Jan 23 16:06:03 JST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@b94127b
+2018-01-23 19:29:45.519  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-01-23 19:29:45.524  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 19:29:45.525  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-01-23 19:29:45.528  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 19:29:45.541  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-23 19:29:45.543  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 141. Connection closed
+2018-01-23 19:29:45.543  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 141. Connection.close() returned 
+2018-01-23 19:29:45.543  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 142. Connection closed
+2018-01-23 19:29:45.543  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 142. Connection.close() returned 
+2018-01-23 19:29:45.543  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 143. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 143. Connection.close() returned 
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 144. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 144. Connection.close() returned 
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 145. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 145. Connection.close() returned 
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 146. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 146. Connection.close() returned 
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 147. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 147. Connection.close() returned 
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 148. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 148. Connection.close() returned 
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 149. Connection closed
+2018-01-23 19:29:45.544  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 149. Connection.close() returned 
+2018-01-23 19:29:45.545  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.connection                          : 150. Connection closed
+2018-01-23 19:29:45.546  INFO [-,,,] 84774 --- [testdb connection closer] jdbc.audit                               : 150. Connection.close() returned 
+2018-01-23 19:29:45.546  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-23 19:29:45.623  INFO [-,,,] 84774 --- [RMI TCP Connection(420)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-01-23 19:33:00.773  INFO [-,,,] 94582 --- [main] c.e.t.s.SpringotamashiApplication        : No active profile set, falling back to default profiles: default
+2018-01-23 19:33:00.800  INFO [-,,,] 94582 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69a3d1d: startup date [Tue Jan 23 19:33:00 JST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34033bd0
+2018-01-23 19:33:02.623  INFO [-,,,] 94582 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'websocketContainerCustomizer' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$JettyWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$JettyWebSocketConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration.class]]
+2018-01-23 19:33:02.926  INFO [-,,,] 94582 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'httpRequestHandlerAdapter' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration; factoryMethodName=httpRequestHandlerAdapter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration; factoryMethodName=httpRequestHandlerAdapter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/data/rest/webmvc/config/RepositoryRestMvcConfiguration.class]]
+2018-01-23 19:33:03.517  INFO [-,,,] 94582 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=594e35dc-8f46-3129-8e85-6eb35568c68e
+2018-01-23 19:33:03.782  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$29218f1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:03.934  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$ee45378b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:04.222  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:04.236  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebdff159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:04.424  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7f9f456] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:04.451  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$d3c39d78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:04.481  INFO [-,,,] 94582 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.TraceWebServletAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.TraceWebServletAutoConfiguration$$EnhancerBySpringCGLIB$$ae8e799f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-23 19:33:04.913  INFO [-,,,] 94582 --- [main] org.eclipse.jetty.util.log               : Logging initialized @7520ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-23 19:33:05.210  INFO [-,,,] 94582 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 23878
+2018-01-23 19:33:05.216  INFO [-,,,] 94582 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.7.v20170914
+2018-01-23 19:33:05.303  INFO [-,,,] 94582 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2018-01-23 19:33:05.304  INFO [-,,,] 94582 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2018-01-23 19:33:05.308  INFO [-,,,] 94582 --- [main] org.eclipse.jetty.server.session         : Scavenging every 600000ms
+2018-01-23 19:33:05.319  INFO [-,,,] 94582 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2018-01-23 19:33:05.320  INFO [-,,,] 94582 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4521 ms
+2018-01-23 19:33:05.689  INFO [-,,,] 94582 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-23 19:33:05.693  INFO [-,,,] 94582 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2018-01-23 19:33:05.694  INFO [-,,,] 94582 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-23 19:33:05.694  INFO [-,,,] 94582 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-23 19:33:05.695  INFO [-,,,] 94582 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-23 19:33:05.702  INFO [-,,,] 94582 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-23 19:33:05.705  INFO [-,,,] 94582 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@42a15bdc{/,[file:///private/var/folders/1m/v_pnk3kd3hj0558d1z3nsnzh0000gn/T/jetty-docbase.638236706820828998.23878/, jar:file:/Users/hiromitakahashi/oper/springotamashi/build/libs/springotamashi-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2018-01-23 19:33:05.707  INFO [-,,,] 94582 --- [main] org.eclipse.jetty.server.Server          : Started @8314ms
+2018-01-23 19:33:06.009  INFO [-,,,] 94582 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Starting...
+2018-01-23 19:33:06.363  INFO [-,,,] 94582 --- [main] jdbc.connection                          : 1. Connection opened
+2018-01-23 19:33:06.365  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-01-23 19:33:06.365  INFO [-,,,] 94582 --- [main] com.zaxxer.hikari.pool.PoolBase          : testdb - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2018-01-23 19:33:06.366  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.366  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.373  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.isValid(1) returned true
+2018-01-23 19:33:06.374  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getTransactionIsolation() returned 2
+2018-01-23 19:33:06.379  INFO [-,,,] 94582 --- [main] com.zaxxer.hikari.HikariDataSource       : testdb - Start completed.
+2018-01-23 19:33:06.386  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned dbMeta0: conn0: url=jdbc:h2:file:./target/db/testdb user=SA
+2018-01-23 19:33:06.391  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:06.448  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned dbMeta1: conn0: url=jdbc:h2:file:./target/db/testdb user=SA
+2018-01-23 19:33:06.449  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:06.486  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 2. Connection opened
+2018-01-23 19:33:06.486  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-01-23 19:33:06.487  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 2. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.487  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 2. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.488  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 3. Connection opened
+2018-01-23 19:33:06.488  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-01-23 19:33:06.488  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 3. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.489  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 3. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.490  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 4. Connection opened
+2018-01-23 19:33:06.490  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-01-23 19:33:06.490  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 4. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.490  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 4. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.491  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 5. Connection opened
+2018-01-23 19:33:06.491  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-01-23 19:33:06.491  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 5. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.491  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 5. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.492  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 6. Connection opened
+2018-01-23 19:33:06.492  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-01-23 19:33:06.492  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 6. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.492  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 6. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.493  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 7. Connection opened
+2018-01-23 19:33:06.493  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-01-23 19:33:06.494  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 7. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.494  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 7. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.494  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 8. Connection opened
+2018-01-23 19:33:06.495  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-01-23 19:33:06.495  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 8. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.495  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 8. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.495  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 9. Connection opened
+2018-01-23 19:33:06.496  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-01-23 19:33:06.496  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 9. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.496  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 9. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.496  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.connection                          : 10. Connection opened
+2018-01-23 19:33:06.496  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-01-23 19:33:06.496  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 10. Connection.setReadOnly(false) returned 
+2018-01-23 19:33:06.497  INFO [-,,,] 94582 --- [testdb connection adder] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:06.530  INFO [-,,,] 94582 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-23 19:33:06.567  INFO [-,,,] 94582 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-23 19:33:06.879  INFO [-,,,] 94582 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.12.Final}
+2018-01-23 19:33:06.886  INFO [-,,,] 94582 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-01-23 19:33:07.100  INFO [-,,,] 94582 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-23 19:33:07.743  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2018-01-23 19:33:07.743  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned dbMeta2: conn0: url=jdbc:h2:file:./target/db/testdb user=SA
+2018-01-23 19:33:07.775  INFO [-,,,] 94582 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-01-23 19:33:07.922  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:08.661  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2018-01-23 19:33:08.661  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getAutoCommit() returned true
+2018-01-23 19:33:08.663  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Statement.new Statement returned 
+2018-01-23 19:33:08.663  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.createStatement() returned net.sf.log4jdbc.StatementSpy@75cd8043
+2018-01-23 19:33:08.665  INFO [-,,,] 94582 --- [main] jdbc.sqlonly                             : select SEQUENCE_CATALOG, SEQUENCE_SCHEMA, SEQUENCE_NAME, INCREMENT from information_schema.sequences 
+
+2018-01-23 19:33:08.666  INFO [-,,,] 94582 --- [main] jdbc.sqltiming                           : select SEQUENCE_CATALOG, SEQUENCE_SCHEMA, SEQUENCE_NAME, INCREMENT from information_schema.sequences 
+ {executed in 1 msec}
+2018-01-23 19:33:08.671  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.new ResultSet returned 
+2018-01-23 19:33:08.672  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Statement.executeQuery(select SEQUENCE_CATALOG, SEQUENCE_SCHEMA, SEQUENCE_NAME, INCREMENT from information_schema.sequences) returned net.sf.log4jdbc.ResultSetSpy@33b1c5c5
+2018-01-23 19:33:08.676  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.next() returned true
+2018-01-23 19:33:08.678  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.getString(SEQUENCE_CATALOG) returned TESTDB
+2018-01-23 19:33:08.678  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.getString(SEQUENCE_SCHEMA) returned PUBLIC
+2018-01-23 19:33:08.678  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.getString(SEQUENCE_NAME) returned SYSTEM_SEQUENCE_3070C505_847D_42E1_A836_53B41B3C6447
+2018-01-23 19:33:08.679  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.getInt(INCREMENT) returned 1
+2018-01-23 19:33:08.679  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |-----------------|----------------|-----------------------------------------------------|----------|
+2018-01-23 19:33:08.680  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |SEQUENCE_CATALOG |SEQUENCE_SCHEMA |SEQUENCE_NAME                                        |INCREMENT |
+2018-01-23 19:33:08.680  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |-----------------|----------------|-----------------------------------------------------|----------|
+2018-01-23 19:33:08.680  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |TESTDB           |PUBLIC          |SYSTEM_SEQUENCE_3070C505_847D_42E1_A836_53B41B3C6447 |1         |
+2018-01-23 19:33:08.681  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |-----------------|----------------|-----------------------------------------------------|----------|
+2018-01-23 19:33:08.681  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.next() returned false
+2018-01-23 19:33:08.681  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.close() returned null
+2018-01-23 19:33:08.681  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Statement.close() returned 
+2018-01-23 19:33:08.686  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned dbMeta4: conn0: url=jdbc:h2:file:./target/db/testdb user=SA
+2018-01-23 19:33:08.703  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:08.708  INFO [-,,,] 94582 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 19:33:08.954  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned dbMeta5: conn0: url=jdbc:h2:file:./target/db/testdb user=SA
+2018-01-23 19:33:08.954  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:09.581  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2018-01-23 19:33:09.582  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getAutoCommit() returned true
+2018-01-23 19:33:09.583  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.setAutoCommit(false) returned 
+2018-01-23 19:33:09.641  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. PreparedStatement.new PreparedStatement returned 
+2018-01-23 19:33:09.642  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.prepareStatement(select employee0_.id as id1_0_0_, employee0_.age as age2_0_0_, employee0_.name as name3_0_0_ from t_employee employee0_ where employee0_.id=?) returned net.sf.log4jdbc.PreparedStatementSpy@2f6e28bc
+2018-01-23 19:33:09.651  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. PreparedStatement.setString(1, "u001") returned 
+2018-01-23 19:33:09.654  INFO [-,,,] 94582 --- [main] jdbc.sqlonly                             : select employee0_.id as id1_0_0_, employee0_.age as age2_0_0_, employee0_.name as name3_0_0_ 
+from t_employee employee0_ where employee0_.id='u001' 
+2018-01-23 19:33:09.656  INFO [-,,,] 94582 --- [main] jdbc.sqltiming                           : select employee0_.id as id1_0_0_, employee0_.age as age2_0_0_, employee0_.name as name3_0_0_ 
+from t_employee employee0_ where employee0_.id='u001'  {executed in 1 msec}
+2018-01-23 19:33:09.657  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.new ResultSet returned 
+2018-01-23 19:33:09.657  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.ResultSetSpy@31e4bb20
+2018-01-23 19:33:09.660  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.next() returned true
+2018-01-23 19:33:09.671  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.getInt(age2_0_0_) returned 33
+2018-01-23 19:33:09.672  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.wasNull() returned false
+2018-01-23 19:33:09.673  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.getString(name3_0_0_) returned taka
+2018-01-23 19:33:09.673  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.wasNull() returned false
+2018-01-23 19:33:09.676  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |---------|----|-----|
+2018-01-23 19:33:09.677  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |ID       |AGE |NAME |
+2018-01-23 19:33:09.678  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |---------|----|-----|
+2018-01-23 19:33:09.678  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |[unread] |33  |taka |
+2018-01-23 19:33:09.678  INFO [-,,,] 94582 --- [main] jdbc.resultsettable                      : |---------|----|-----|
+2018-01-23 19:33:09.679  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.next() returned false
+2018-01-23 19:33:09.685  INFO [-,,,] 94582 --- [main] jdbc.resultset                           : 1. ResultSet.close() returned null
+2018-01-23 19:33:09.685  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. PreparedStatement.getMaxRows() returned 0
+2018-01-23 19:33:09.686  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. PreparedStatement.getQueryTimeout() returned 0
+2018-01-23 19:33:09.687  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. PreparedStatement.close() returned 
+2018-01-23 19:33:09.700  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.commit() returned 
+2018-01-23 19:33:09.701  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.setAutoCommit(true) returned 
+2018-01-23 19:33:09.702  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.getWarnings() returned null
+2018-01-23 19:33:09.702  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:09.702  INFO [-,,,] 94582 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-01-23 19:33:10.925  WARN [-,,,] 94582 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-01-23 19:33:11.487  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/hello],methods=[GET]}" onto public com.example.takahashi.springotamashi.Employee com.example.takahashi.springotamashi.HelloRestController.hello()
+2018-01-23 19:33:11.489  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loginForm]}" onto public java.lang.String com.example.takahashi.springotamashi.LoginController.top(org.springframework.ui.Model)
+2018-01-23 19:33:11.490  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.takahashi.springotamashi.HelloController.hello()
+2018-01-23 19:33:11.493  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calc],methods=[POST]}" onto public java.lang.String com.example.takahashi.springotamashi.CalcController.calc(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2018-01-23 19:33:11.499  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-01-23 19:33:11.500  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-01-23 19:33:11.501  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-01-23 19:33:11.507  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-23 19:33:11.509  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-23 19:33:12.100  INFO [-,,,] 94582 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-01-23 19:33:12.952  INFO [-,,,] 94582 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69a3d1d: startup date [Tue Jan 23 19:33:00 JST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34033bd0
+2018-01-23 19:33:13.467  INFO [-,,,] 94582 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-23 19:33:13.468  INFO [-,,,] 94582 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-23 19:33:13.536  INFO [-,,,] 94582 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+2018-01-23 19:33:13.742  INFO [-,,,] 94582 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-23 19:33:13.860  WARN [-,,,] 94582 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-01-23 19:33:14.204  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerAdapter   : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69a3d1d: startup date [Tue Jan 23 19:33:00 JST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34033bd0
+2018-01-23 19:33:14.256  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositories()
+2018-01-23 19:33:14.257  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryController.headForRepositories()
+2018-01-23 19:33:14.260  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RepositoryLinksResource> org.springframework.data.rest.webmvc.RepositoryController.listRepositories()
+2018-01-23 19:33:14.274  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:14.275  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.275  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.276  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResourceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.279  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[POST],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.postCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.280  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:14.282  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.282  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<?>> org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.http.HttpHeaders) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.284  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.putItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.285  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[PATCH],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.patchItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException,org.springframework.data.rest.webmvc.ResourceNotFoundException
+2018-01-23 19:33:14.286  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[DELETE],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.deleteItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.support.ETag) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2018-01-23 19:33:14.288  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:14.288  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:14.289  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.RepositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:14.290  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.http.HttpHeaders)
+2018-01-23 19:33:14.291  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/x-spring-data-compact+json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.data.rest.webmvc.RepositorySearchController.executeSearchCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpHeaders,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+2018-01-23 19:33:14.292  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[OPTIONS],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+2018-01-23 19:33:14.293  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[HEAD],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+2018-01-23 19:33:14.296  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2018-01-23 19:33:14.297  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[GET],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2018-01-23 19:33:14.298  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[DELETE],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String) throws java.lang.Exception
+2018-01-23 19:33:14.298  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReferenceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2018-01-23 19:33:14.300  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[PATCH || PUT || POST],consumes=[application/json || application/x-spring-data-compact+json || text/uri-list],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.createPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpMethod,org.springframework.hateoas.Resources<java.lang.Object>,java.io.Serializable,java.lang.String) throws java.lang.Exception
+2018-01-23 19:33:14.301  INFO [-,,,] 94582 --- [main] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[DELETE],produces=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReferenceId(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String) throws java.lang.Exception
+2018-01-23 19:33:14.310  INFO [-,,,] 94582 --- [main] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[GET],produces=[application/alps+json || */*]}" onto org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RootResourceInformation> org.springframework.data.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:14.311  INFO [-,,,] 94582 --- [main] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[OPTIONS],produces=[application/alps+json]}" onto org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+2018-01-23 19:33:14.312  INFO [-,,,] 94582 --- [main] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile],methods=[OPTIONS]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+2018-01-23 19:33:14.313  INFO [-,,,] 94582 --- [main] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile],methods=[GET]}" onto org.springframework.http.HttpEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+2018-01-23 19:33:14.313  INFO [-,,,] 94582 --- [main] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[GET],produces=[application/schema+json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.json.JsonSchema> org.springframework.data.rest.webmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+2018-01-23 19:33:15.017  INFO [-,,,] 94582 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2018-01-23 19:33:15.257  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-23 19:33:15.260  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-01-23 19:33:15.276  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-01-23 19:33:15.277  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-01-23 19:33:15.278  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-01-23 19:33:15.284  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-01-23 19:33:15.309  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-01-23 19:33:15.339  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=69a3d1d,type=ConfigurationPropertiesRebinder]
+2018-01-23 19:33:15.349  INFO [-,,,] 94582 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-01-23 19:33:15.801  INFO [-,,,] 94582 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-01-23 19:33:15.801  INFO [-,,,] 94582 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-01-23 19:33:15.832  INFO [-,,,] 94582 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-01-23 19:33:15.894  INFO [-,,,] 94582 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-01-23 19:33:16.097  INFO [-,,,] 94582 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 19:33:16.098  INFO [-,,,] 94582 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-23 19:33:16.158  INFO [-,,,] 94582 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2018-01-23 19:33:16.219  INFO [-,,,] 94582 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@458544e0{HTTP/1.1,[http/1.1]}{0.0.0.0:23878}
+2018-01-23 19:33:16.220  INFO [-,,,] 94582 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 23878 (http/1.1)
+2018-01-23 19:33:16.225  INFO [-,,,] 94582 --- [main] c.e.t.s.SpringotamashiApplication        : Started SpringotamashiApplication in 18.037 seconds (JVM running for 18.831)
+2018-01-23 19:33:41.912  INFO [-,0ca5eb2f150b8a3d,0ca5eb2f150b8a3d,false] 94582 --- [qtp169833205-18] c.e.t.springotamashi.HelloController     : txt1 : 1
+2018-01-23 19:33:41.912  INFO [-,0ca5eb2f150b8a3d,0ca5eb2f150b8a3d,false] 94582 --- [qtp169833205-18] c.e.t.springotamashi.HelloController     : txt2 : 2
+2018-01-23 19:33:47.918  INFO [-,,,] 94582 --- [Thread-14] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69a3d1d: startup date [Tue Jan 23 19:33:00 JST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34033bd0
+2018-01-23 19:33:47.925  INFO [-,,,] 94582 --- [Thread-14] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-01-23 19:33:47.939  INFO [-,,,] 94582 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-23 19:33:47.941  INFO [-,,,] 94582 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-01-23 19:33:47.949  INFO [-,,,] 94582 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-23 19:33:47.966  INFO [-,,,] 94582 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown initiated...
+2018-01-23 19:33:47.974  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 1. Connection closed
+2018-01-23 19:33:47.974  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 1. Connection.close() returned 
+2018-01-23 19:33:47.975  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 2. Connection closed
+2018-01-23 19:33:47.975  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 2. Connection.close() returned 
+2018-01-23 19:33:47.975  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 3. Connection closed
+2018-01-23 19:33:47.976  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 3. Connection.close() returned 
+2018-01-23 19:33:47.978  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 4. Connection closed
+2018-01-23 19:33:47.979  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 4. Connection.close() returned 
+2018-01-23 19:33:47.980  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 5. Connection closed
+2018-01-23 19:33:47.980  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 5. Connection.close() returned 
+2018-01-23 19:33:47.981  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 6. Connection closed
+2018-01-23 19:33:47.982  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 6. Connection.close() returned 
+2018-01-23 19:33:47.982  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 7. Connection closed
+2018-01-23 19:33:47.982  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 7. Connection.close() returned 
+2018-01-23 19:33:47.982  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 8. Connection closed
+2018-01-23 19:33:47.982  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 8. Connection.close() returned 
+2018-01-23 19:33:47.983  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 9. Connection closed
+2018-01-23 19:33:47.984  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 9. Connection.close() returned 
+2018-01-23 19:33:47.985  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.connection                          : 10. Connection closed
+2018-01-23 19:33:47.985  INFO [-,,,] 94582 --- [testdb connection closer] jdbc.audit                               : 10. Connection.close() returned 
+2018-01-23 19:33:47.985  INFO [-,,,] 94582 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : testdb - Shutdown completed.
+2018-01-23 19:33:47.999  INFO [-,,,] 94582 --- [Thread-14] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@458544e0{HTTP/1.1,[http/1.1]}{0.0.0.0:23878}
+2018-01-23 19:33:48.000  INFO [-,,,] 94582 --- [Thread-14] org.eclipse.jetty.server.session         : Stopped scavenging
+2018-01-23 19:33:48.003  INFO [-,,,] 94582 --- [Thread-14] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-01-23 19:33:48.005  INFO [-,,,] 94582 --- [Thread-14] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@42a15bdc{/,[file:///private/var/folders/1m/v_pnk3kd3hj0558d1z3nsnzh0000gn/T/jetty-docbase.638236706820828998.23878/, jar:file:/Users/hiromitakahashi/oper/springotamashi/build/libs/springotamashi-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
