@@ -1,4 +1,4 @@
-
+defaultTasks "clean", "build"
 buildscript {
 	ext {
 		springBootVersion = '2.0.0.M6'
@@ -26,10 +26,10 @@ apply plugin: 'com.palantir.docker'
 // 通常起動>>　　./gradlew bootrun
 // http://localhost:8080/swagger-ui.html
 group = 'com.example.takahashi'
-jar.baseName = 'springotamashi'
+//jar.baseName = 'springomix222'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
-defaultTasks "clean", "build"
+
 repositories {
 	mavenCentral()
 	maven { url "https://repo.spring.io/snapshot" }
