@@ -26,6 +26,7 @@ apply plugin: 'com.palantir.docker'
 // 通常起動>>　　./gradlew bootrun
 // http://localhost:8080/swagger-ui.html
 group = 'com.example.takahashi'
+jar.baseName = 'springotamashi'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 defaultTasks "clean", "build"
