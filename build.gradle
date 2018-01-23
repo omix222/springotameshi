@@ -20,7 +20,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'idea'
-apply plugin: 'com.palantir.docker'
+//apply plugin: 'com.palantir.docker'
 // 初回は以下実行要
 // ./gradlew cleanIdea idea
 // 通常起動>>　　./gradlew bootrun
