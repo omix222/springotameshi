@@ -25,7 +25,7 @@ public class SpringotamashiApplication {
 	EmployeeRepository repo;
 	public static void main(String[] args) {
 		//PCF上でGWTにならないように固定化
-		TimeZone.setDefault(TimeZone.getTimeZone("JST"));
+			TimeZone.setDefault(TimeZone.getTimeZone("JST"));
 		
 		SpringApplication.run(SpringotamashiApplication.class, args);
 	}
