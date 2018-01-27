@@ -23,15 +23,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class HelloControllerTest {
 
 	private WebDriver driver;
-	private String baseUrl;
-	  private boolean acceptNextAlert = true;
-	  private StringBuffer verificationErrors = new StringBuffer();
+	private StringBuffer verificationErrors = new StringBuffer();
 
 	@Before
 	public void setup() throws Exception{
 		System.setProperty("webdriver.gecko.driver", "exe/geckodriver");
 	    driver = new FirefoxDriver();
-	    baseUrl = "http://localhost:8080/";
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
  
