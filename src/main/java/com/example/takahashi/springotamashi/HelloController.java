@@ -1,17 +1,16 @@
 package com.example.takahashi.springotamashi;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import java.util.Locale;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.context.MessageSource;
 
-@Service
+@Controller
 @RequestMapping("/")
 public class HelloController {
 
@@ -21,6 +20,9 @@ public class HelloController {
 	// Massageの取得
 	@Autowired
 	MessageSource messageSource;
+	
+	@Autowired
+	HelloService helloService;
 	
 	
 	private static final Logger logger = LoggerFactory.getLogger(HelloController.class);
@@ -38,6 +40,7 @@ public class HelloController {
 //		logger.info("${hoge}:" + hoge);
 //		String message = messageSource.getMessage("welcome.message", new String[]{"hogehoge"}, Locale.JAPANESE);
 //		logger.info(message);
+		logger.info("call helloService :"+helloService.doService());
 		return "hellospringmvc";
 	}
 }

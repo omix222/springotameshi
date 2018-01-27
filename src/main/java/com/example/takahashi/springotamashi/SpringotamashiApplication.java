@@ -14,14 +14,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 
 public class SpringotamashiApplication {
-	@PostConstruct
+	//@PostConstruct
 	public void before() {
 		System.out.println("use run run");
 		Employee emp = new Employee("u001","taka",33);
 		repo.save(emp);
 		
 	}
-	@Autowired
+	//@Autowired
 	EmployeeRepository repo;
 	public static void main(String[] args) {
 		//PCF上でGWTにならないように固定化

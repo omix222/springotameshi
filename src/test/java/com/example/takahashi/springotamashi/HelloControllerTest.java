@@ -1,64 +1,33 @@
 package com.example.takahashi.springotamashi;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-import java.util.concurrent.TimeUnit;
-
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment =WebEnvironment.DEFINED_PORT )
-@AutoConfigureMockMvc
+@WebMvcTest(HelloController.class)
 public class HelloControllerTest {
 
-	private WebDriver driver;
-	private StringBuffer verificationErrors = new StringBuffer();
+	@Autowired
+    private MockMvc mockMvc;
 
-	@Before
-	public void setup() throws Exception{
-		System.setProperty("webdriver.gecko.driver", "exe/geckodriver");
-	    driver = new FirefoxDriver();
-	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	}
- 
-	@After
-	  public void tearDown() throws Exception {
-	    driver.quit();
-	    String verificationErrorString = verificationErrors.toString();
-	    if (!"".equals(verificationErrorString)) {
-	      fail(verificationErrorString);
-	    }
-	}
+    @MockBean
+    private HelloService helloService;
+
     @Test
-    public void testControllerApply() throws Exception {
-        driver.get("http://localhost:8080/");
-    	try {
-    	      assertEquals("電卓アプリ", driver.findElement(By.xpath("/html/body/h1")).getText());
-    	    } catch (Error e) {
-    	      verificationErrors.append(e.toString());
-    	    }
-    }
-    @Test
-    public void testControllerUsecase() throws Exception {
-      driver.get("http://localhost:8080/");
-      driver.findElement(By.id("inputText1")).sendKeys("1");
-      driver.findElement(By.id("inputText2")).sendKeys("2");
-      driver.findElement(By.cssSelector("input.buttun")).click();
-      try {
-        assertEquals("答えは:3です！！", driver.findElement(By.xpath("//h1[2]")).getText());
-      } catch (Error e) {
-        verificationErrors.append(e.toString());
-      }
+    public void sampleTest() throws Exception {
+        when(helloService.doService()).thenReturn("Hello Mock");
+        mockMvc.perform(get("/"))
+            .andExpect(status().isOk())
+            .andExpect(view().name("hellospringmvc"));
     }
 }
