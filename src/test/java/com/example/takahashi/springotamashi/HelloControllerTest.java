@@ -44,12 +44,24 @@ public class HelloControllerTest {
 	    }
 	}
     @Test
-    public void testController() throws Exception {
+    public void testControllerApply() throws Exception {
         driver.get("http://localhost:8080/");
     	try {
     	      assertEquals("電卓アプリ", driver.findElement(By.xpath("/html/body/h1")).getText());
     	    } catch (Error e) {
     	      verificationErrors.append(e.toString());
     	    }
+    }
+    @Test
+    public void testControllerUsecase() throws Exception {
+      driver.get("http://localhost:8080/");
+      driver.findElement(By.id("inputText1")).sendKeys("1");
+      driver.findElement(By.id("inputText2")).sendKeys("2");
+      driver.findElement(By.cssSelector("input.buttun")).click();
+      try {
+        assertEquals("答えは:3です！！", driver.findElement(By.xpath("//h1[2]")).getText());
+      } catch (Error e) {
+        verificationErrors.append(e.toString());
+      }
     }
 }

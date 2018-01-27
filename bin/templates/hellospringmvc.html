@@ -20,13 +20,13 @@
     <h2><a href="/swagger-ui.html" th:href="@{/swagger-ui.html}">Swagger UI Link</a></h2>
      -->
      <form method="POST" action="/calc" th:action="@{/calc}">
-        <input class="inp" id="inputText" type="text" name="txt1" th:value="${txt1}" /><div>+</div>
-        <input class="inp" type="text" name="txt2" th:value="${txt2}" />
+        <input class="inp" id="inputText1" type="text" name="txt1" th:value="${txt1}" /><div>+</div>
+        <input class="inp" id="inputText2" type="text" name="txt2" th:value="${txt2}" />
         <input class="buttun" type="submit" value="計算" />
     </form>
 	<script type="text/javascript">
 		window.onload = function(){
-			document.getElementById('inputText').focus();
+			document.getElementById('inputText1').focus();
 		}
 	</script>    
     
