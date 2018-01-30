@@ -1,8 +1,8 @@
 # springotameshi
 
-データ投入
+- データ投入
 
- curl -H 'Content-Type:application/json' -H "Accept: application/json" -X POST -d '{"id":"id001","name":"takahashi","age":"33"}' http://localhost:8080/employees
+-  curl -H 'Content-Type:application/json' -H "Accept: application/json" -X POST -d '{"id":"id001","name":"takahashi","age":"33"}' http://localhost:8080/employees
  ⇨失敗？？
  
  http://localhost:8080/employees/
@@ -46,69 +46,67 @@
 
 * 初回は以下実行要  
 
- ./gradlew cleanIdea idea
+-  ./gradlew cleanIdea idea
 
 *  通常起動
 　　
- ./gradlew bootrun
+-  ./gradlew bootrun
 
 * アクセス　　
 
-http://localhost:8080/swagger-ui.html
+- http://localhost:8080/swagger-ui.html
 
-http://localhost:8080/v2/api-docs?group=public
+- http://localhost:8080/v2/api-docs?group=public
 
-dockerお試し
+- dockerお試し
 
-https://plugins.gradle.org/plugin/com.palantir.docker
+- https://plugins.gradle.org/plugin/com.palantir.docker
 
 * Spring-boot-dockerプロジェクト
 
-https://spring.io/guides/gs/spring-boot-docker/
+- https://spring.io/guides/gs/spring-boot-docker/
 
-sudo ./gradlew build docker
+- sudo ./gradlew build docker
 
-> Task :docker
-Get https://registry-1.docker.io/v2/library/openjdk/manifests/8-jdk-alpine: unauthorized: incorrect username or password
+- > Task :docker
+- Get https://registry-1.docker.io/v2/library/openjdk/manifests/8-jdk-alpine: unauthorized: incorrect username or password
 
-が出た時は認証が必要。
+- が出た時は認証が必要。
 
-docker login
+- docker login
 
-コマンドでログインしておく。
+- コマンドでログインしておく。
 
-上記でダメなら、、jar作成後、自分でdocker　buildする。
+- 上記でダメなら、、jar作成後、自分でdocker　buildする。
 
-docker build . -f build/docker/Dockerfile 
-docker ps コマンドでビルドしたイメージのIDを確認
-//docker run -it  <IMAGE ID> -p 8081:8080
-docker run -itd -p 8081:8080 --name springotameshi 50a160b967d2<IMAGE ID> 
+- docker build . -f build/docker/Dockerfile 
+- docker ps コマンドでビルドしたイメージのIDを確認
+- //docker run -it  <IMAGE ID> -p 8081:8080
+- docker run -itd -p 8081:8080 --name springotameshi 50a160b967d2<IMAGE ID> 
  
-http://localhost:8081/
-でアクセス。
+- http://localhost:8081/
+- でアクセス。
 
-止める時は、
+- 止める時は、
 
-docker stop springotameshi
+- docker stop springotameshi
 
 
-pcf用のコマンド
-  ./gradlew clean build
-  cf login
-  cf push mforumapp -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar 
+- pcf用のコマンド
+-   ./gradlew clean build
+-   cf login
+-   cf push mforumapp -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar 
 
 
   
-  cf push mforumapp2 -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar
+-   cf push mforumapp2 -p build/libs/springotamashi-0.0.1-SNAPSHOT.jar
     
-  cf map-route mforumapp2 cfapps.io -n mforumapp
+-   cf map-route mforumapp2 cfapps.io -n mforumapp
 
 
-  cf map-route mforumapp cfapps.io -n mforumapp2
+-  cf map-route mforumapp cfapps.io -n mforumapp2
 
-
-  cf bgd mforumapp
+-  cf bgd mforumapp
   
-  
-　https://mforumapp.cfapps.io/  
+- 　https://mforumapp.cfapps.io/  
 
