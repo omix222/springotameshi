@@ -1,7 +1,8 @@
 defaultTasks "clean", "build"
 buildscript {
 	ext {
-		springBootVersion = '2.0.0.M6'
+		springBootVersion = '2.0.0.RC1'
+		springCloudVersion = '2.0.0.M5'
 	}
 	repositories {
 		mavenCentral()
@@ -42,14 +43,15 @@ ext {
 }
 
 dependencies {
-	//compile('org.springframework.boot:spring-boot-starter-actuator')
+	compile('org.springframework.boot:spring-boot-starter-actuator')
 	//compile('org.springframework.cloud:spring-cloud-starter-security')
-	//compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	//compile('org.springframework.boot:spring-boot-starter-tomcat')
 	
 	// for Thymeleaf
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
-	compile("org.springframework.cloud:spring-cloud-starter-sleuth")
+	compile("org.springframework.cloud:spring-cloud-starter-sleuth:${springCloudVersion}")
 //compile ('org.springframework.security:spring-security-web:5.0.0.RELEASE')
 	//compile ('org.springframework.security:spring-security-config:5.0.0.RELEASE')
 	
@@ -68,7 +70,7 @@ dependencies {
     compile "com.google.guava:guava:23.0"
     
     //for heroku
-    compile "org.springframework.boot:spring-boot-starter-jetty"
+    //compile "org.springframework.boot:spring-boot-starter-jetty"
 }
 
 dependencyManagement {
