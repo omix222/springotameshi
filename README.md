@@ -108,5 +108,10 @@
 
 -  cf bgd mforumapp
   
-- 　https://mforumapp.cfapps.io/  
+  ## SpringFoxを使って、Swagger UI生成に対応しました。
+* http://localhost:8080/swagger-ui.html
+* で各APIの仕様を確認することができる。
+
+* http://localhost:8080/v2/api-docs?group=public
+* でswagger yamlも取得可能。
 

@@ -2,7 +2,6 @@ body {
 	background-color:white;
 	display: table-cell;
 	vertical-align: middle;
-	margin: 2em auto;
 }
 html {
             display: table;
@@ -10,27 +9,6 @@ html {
             height: 100%;
             text-align: center;
             width: 100%;
-}
-
-h1 {
-            color: #555;
-            font-size: 6em;
-            font-weight: 400;
-}
-form {
-    font-size: 2em;
-}
-div {
-    display: inline;
-    font-size: 2em;
-}
-.inp {
-    width: 4em;
-    font-size: 2em;
-}
-.buttun {
-    width: 4em;
-    font-size: 2em;
 }
 
 .full-height {

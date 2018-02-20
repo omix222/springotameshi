@@ -54,7 +54,7 @@ extends WebSecurityConfigurerAdapter
 			.usernameParameter("username")
             .passwordParameter("password")
 			.failureForwardUrl("/loginForm?error")
-			.defaultSuccessUrl("/hello",true)
+			.defaultSuccessUrl("/",true)
 			.and()
 		.logout()
 			.logoutUrl("/logout")
