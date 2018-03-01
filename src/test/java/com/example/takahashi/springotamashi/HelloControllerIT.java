@@ -42,7 +42,10 @@ public class HelloControllerIT {
 	}
     @Test
     public void testControllerApply() throws Exception {
-        driver.get("http://localhost:8080/");
+        driver.get("http://localhost:8080/loginForm");
+        driver.findElement(By.id("username")).sendKeys("user");
+        driver.findElement(By.id("password")).sendKeys("user");
+        driver.findElement(By.cssSelector("input.buttun")).click();
     	try {
     	      assertEquals("電卓アプリ", driver.findElement(By.xpath("/html/body/h1")).getText());
     	    } catch (Error e) {
@@ -51,7 +54,10 @@ public class HelloControllerIT {
     }
     @Test
     public void testControllerUsecase() throws Exception {
-      driver.get("http://localhost:8080/");
+      driver.get("http://localhost:8080/loginForm");
+      driver.findElement(By.id("username")).sendKeys("user");
+      driver.findElement(By.id("password")).sendKeys("user");
+      driver.findElement(By.cssSelector("input.buttun")).click();
       driver.findElement(By.id("inputText1")).sendKeys("1");
       driver.findElement(By.id("inputText2")).sendKeys("2");
       driver.findElement(By.cssSelector("input.buttun")).click();

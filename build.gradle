@@ -1,8 +1,7 @@
 defaultTasks "clean", "build"
 buildscript {
 	ext {
-		springBootVersion = '2.0.0.RC1'
-		//springBootVersion = '2.0.0.M7'
+		springBootVersion = '2.0.0.RELEASE'
 		//springCloudVersion = 'Finchley.M5'
 	}
 	repositories {
@@ -72,6 +71,7 @@ dependencies {
 	
 	compile "io.springfox:springfox-swagger2:2.7.0"
     compile "io.springfox:springfox-swagger-ui:2.7.0"
+    compile "io.springfox:springfox-data-rest:2.7.0"
     compile "com.google.guava:guava:23.0"
     
     //for heroku

@@ -4,15 +4,15 @@ package com.example.takahashi.springotamashi;
 
 import java.util.TimeZone;
 
-import javax.annotation.PostConstruct;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
+
+import springfox.documentation.spring.data.rest.configuration.SpringDataRestConfiguration;
 
 
 @SpringBootApplication
-
+//@Import(SpringDataRestConfiguration.class)
 public class SpringotamashiApplication {
 	//@PostConstruct
 	public void before() {
