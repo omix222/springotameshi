@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfiguration {
-	@Bean
+//	@Bean
 	  public StubLoggingFilter requestLoggingFilter() {
 		StubLoggingFilter filter = new StubLoggingFilter();
 	    return filter;

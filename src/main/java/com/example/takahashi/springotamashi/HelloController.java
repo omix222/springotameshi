@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.context.MessageSource;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/hellocontroller")
 public class HelloController {
 
 	@Value("${hoge:hogehoge}")
