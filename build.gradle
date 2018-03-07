@@ -2,7 +2,6 @@ defaultTasks "clean", "build"
 buildscript {
 	ext {
 		springBootVersion = '2.0.0.RELEASE'
-		//springCloudVersion = 'Finchley.M5'
 	}
 	repositories {
 		mavenCentral()
@@ -42,9 +41,9 @@ repositories {
 
 
 //dependencyManagement {
-//	imports {
-//		mavenBom ':spring-cloud-dependencies:Finchley.M5'
-//	}
+//  imports {
+//    mavenBom ':spring-cloud-dependencies:Finchley.M7'
+//  }
 //}
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
@@ -68,10 +67,10 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	runtime('com.h2database:h2')
-	
-	compile "io.springfox:springfox-swagger2:2.7.0"
-    compile "io.springfox:springfox-swagger-ui:2.7.0"
-    compile "io.springfox:springfox-data-rest:2.7.0"
+	// spring-fox
+	compile "io.springfox:springfox-swagger2:2.8.0"
+	compile "io.springfox:springfox-data-rest:2.8.0"
+	compile "io.springfox:springfox-swagger-ui:2.8.0"
     compile "com.google.guava:guava:23.0"
     
     //for heroku

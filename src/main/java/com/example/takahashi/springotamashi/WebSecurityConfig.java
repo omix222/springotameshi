@@ -17,7 +17,12 @@ extends WebSecurityConfigurerAdapter
 {
 	@Override
 	public void configure(WebSecurity web) {
-		web.ignoring().antMatchers("/webjars/**","/css/**","/fonts/**","/html/**","/images/**","/js/**");
+		web.ignoring().antMatchers("/webjars/**","/css/**","/fonts/**","/html/**","/images/**","/js/**", 
+				//for spring-fox
+				"/swagger-resources/**",
+	            "/swagger-ui.html",
+	            "/v2/api-docs",
+	            "/webjars/**");
 	}
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
@@ -54,7 +59,7 @@ extends WebSecurityConfigurerAdapter
 			.usernameParameter("username")
             .passwordParameter("password")
 			.failureForwardUrl("/loginForm?error")
-			.defaultSuccessUrl("/",true)
+			.defaultSuccessUrl("/hellocontroller",true)
 			.and()
 		.logout()
 			.logoutUrl("/logout")
