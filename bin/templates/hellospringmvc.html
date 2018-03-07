@@ -16,9 +16,10 @@
 </head>
 <body>
     <h1 id="h1id">電卓アプリ</h1>
-    <!-- 
+     
     <h2><a href="/swagger-ui.html" th:href="@{/swagger-ui.html}">Swagger UI Link</a></h2>
-     -->
+    <h3><a href="/count/query" th:href="@{/count/query}">カウント状態照会</a></h3>
+    
      <form method="POST" action="/calc" th:action="@{/calc}">
         <input class="inp" id="inputText1" type="text" name="txt1" th:value="${txt1}" /><div>+</div>
         <input class="inp" id="inputText2" type="text" name="txt2" th:value="${txt2}" />

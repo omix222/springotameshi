@@ -14,5 +14,10 @@
     <h2 th:text="${before}"></h2>
     <h2>after:</h2>
     <h2 th:text="${after}"></h2>
+    <div></div>
+    <h3><a href="/count/query" th:href="@{/count/query}">カウント状態照会</a></h3>
+    <h3><a href="/count/up" th:href="@{/count/up}">カウントアップ正常終了</a></h3>
+    <h3><a href="/count/up?flag=nest" th:href="@{/count/up?flag=nest}">カウントアップネスト（成功＆失敗）</a></h3>
+    <h3><a href="/count/up?flag=true" th:href="@{/count/up?flag=true}">カウントアップ異常終了</a></h3>
 </body>
 </html>
