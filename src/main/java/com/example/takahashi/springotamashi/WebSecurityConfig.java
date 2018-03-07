@@ -18,11 +18,12 @@ extends WebSecurityConfigurerAdapter
 	@Override
 	public void configure(WebSecurity web) {
 		web.ignoring().antMatchers("/webjars/**","/css/**","/fonts/**","/html/**","/images/**","/js/**", 
+				"/h2-console/**",
 				//for spring-fox
 				"/swagger-resources/**",
 	            "/swagger-ui.html",
 	            "/v2/api-docs",
-	            "/webjars/**");
+	            "/v2/api-docs.json");
 	}
 	@Override
 	public void configure(HttpSecurity http) throws Exception {

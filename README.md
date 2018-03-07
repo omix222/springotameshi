@@ -115,3 +115,10 @@
 * http://localhost:8080/v2/api-docs?group=public
 * でswagger yamlも取得可能。
 
+## H2Databaseコンソールアクセス方法 
+
+* http://localhost:8080/h2-console/login.jsp
+
+* JDBCのURLのみ変更する。プロジェクトトップからのパスとして、/target/db/testdb　にファイルがあるので、そこを見れるようなパスをする。
+
+    * 例：jdbc:h2:~/oper/springotamashi/target/db/testdb

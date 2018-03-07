@@ -3,10 +3,8 @@ package com.example.takahashi.springotamashi;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name = "T_COUNT")
 public class Counter {
 	@Id
 	String id;
