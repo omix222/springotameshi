@@ -37,7 +37,17 @@ public class CountService {
 		logger.info("error : counterRepository.findById:"+id);
 		return getCurrentCount(id);
 	}
-	
+	@Transactional(value=TxType.REQUIRED)
+	public Integer updateCount(String id,int add) {
+		Optional<Counter> currentCount =  counterRepository.findById(id);
+		if(currentCount.isPresent()) {
+			Counter current = currentCount.get();
+			current.setCount(current.getCount() + add);
+			counterRepository.saveAndFlush(current);
+		}
+		logger.info("error : counterRepository.findById:"+id);
+		return getCurrentCount(id);
+	}
 	@Transactional(value=TxType.REQUIRES_NEW)
 	public Integer updateCountReqNew(String id) {
 		Optional<Counter> currentCount =  counterRepository.findById(id);

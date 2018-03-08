@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>count up</title>
+    <title>result</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/main.css" th:href="@{/css/main.css}" type="text/css"
@@ -19,5 +19,10 @@
     <h3><a href="/count/up" th:href="@{/count/up}">カウントアップ正常終了</a></h3>
     <h3><a href="/count/up?flag=nest" th:href="@{/count/up?flag=nest}">カウントアップネスト（成功＆失敗）</a></h3>
     <h3><a href="/count/up?flag=true" th:href="@{/count/up?flag=true}">カウントアップ異常終了</a></h3>
+    <h3>カウントアップPRG</h3>
+     <form method="POST" action="/count/postup" th:action="@{/count/postup}">
+        <input class="inp" id="inputText1" type="text" name="txt1" th:value="${txt1}" />
+        <input class="buttun" type="submit" value="カウントアップ" />
+    </form>
 </body>
 </html>
