@@ -4,6 +4,8 @@
 logs/
 *.log
 !gradle/wrapper/gradle-wrapper.jar
+bin/
+target/
 
 ### STS ###
 .apt_generated
